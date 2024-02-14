@@ -34,3 +34,7 @@ Set-ExecutionPolicy RemoteSigned -Scope Process
 
 # then activate the environment
 env/Scripts/Activate.ps1
+
+# To permanently set the execution policy to RemoteSigned for your user in PowerShell, you can use the following command:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
